@@ -8,11 +8,9 @@ class Todo extends Component {
   render() {
     return (
       <div>
-        <h1>Todo List!</h1>
-        <ul>
-          <li>Todo1</li>
-          <li>Todo2</li>
-        </ul>
+        <button>Edit</button>
+        <button>X</button>
+        <li>{this.props.task}</li>
       </div>
     );
   }
