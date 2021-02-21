@@ -5,6 +5,7 @@ class Todo extends Component {
     super(props);
     this.state = { todos: [] };
   }
+
   render() {
     return (
       <div>
